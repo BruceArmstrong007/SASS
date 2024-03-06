@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.body-tests {
-  border: 0;
-}
-
 /* reset styles */
 * {
   color: inherit;
@@ -23,7 +19,7 @@ hr {
 }
 
 h1 {
-  color: blue;
+  color: indigo;
 }
 
 a {
@@ -88,43 +84,43 @@ a {
   }
 }
 .text-primary {
-  color: blue;
+  color: indigo;
 }
 
 .bg-primary {
-  background-color: blue;
+  background-color: indigo;
 }
 
 .bg-primary-light-2 {
-  background-color: #3333ff;
+  background-color: #6f339b;
 }
 
 .bg-primary-light-4 {
-  background-color: #6666ff;
+  background-color: #9366b4;
 }
 
 .bg-primary-light-6 {
-  background-color: #9999ff;
+  background-color: #b799cd;
 }
 
 .bg-primary-light-8 {
-  background-color: #ccccff;
+  background-color: #dbcce6;
 }
 
 .bg-primary-dark-2 {
-  background-color: #0000cc;
+  background-color: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background-color: #000099;
+  background-color: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background-color: #000066;
+  background-color: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background-color: #000033;
+  background-color: #0f001a;
 }
 
 .text-secondary {
@@ -269,11 +265,11 @@ a {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: blue;
+  background-color: indigo;
   border: 0;
 }
 .btn-primary:hover {
-  background-color: #1a1aff;
+  background-color: #5a009c;
 }
 
 .btn-complement-primary {
@@ -282,12 +278,12 @@ a {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  background-color: blue;
-  color: #ffff99;
+  background-color: indigo;
+  color: #7cff1c;
 }
 .btn-complement-primary:hover {
-  color: blue;
-  background-color: #ffff99;
+  color: indigo;
+  background-color: #7cff1c;
 }
 
 .btn-secondary {
@@ -385,12 +381,12 @@ a {
   font-size: 1.5rem;
 }
 .navbar-primary {
-  background-color: blue;
+  background-color: indigo;
 }
 
 .badge-primary {
   border-radius: 80px;
-  background-color: blue;
+  background-color: indigo;
   padding: 0.1875rem 0.375rem;
   font-size: 0.75rem;
   font-weight: normal;
