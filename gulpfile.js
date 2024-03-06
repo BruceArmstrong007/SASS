@@ -16,5 +16,10 @@ function watchTask() {
     watch(['sass/**/*.scss', '*.html'], buildStyles)
 }
 
+function build() {
+    return src('antui/**/*.scss')
+        .pipe(dest('dist'))
+}
 
+exports.build = build;
 exports.default = series(buildStyles, watchTask);

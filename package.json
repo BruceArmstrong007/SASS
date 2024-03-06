@@ -2,9 +2,9 @@
   "name": "sass",
   "version": "1.0.0",
   "description": "SASS Advanced",
-  "main": "index.js",
+  "main": "dist/index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
   "author": "Bruce Armstrong",
   "license": "MIT",
