@@ -4,14 +4,14 @@ const sass = require('gulp-sass')(require('sass'))
 
 
 function buildStyles() {
-    return src('*.scss')
+    return src('antui/**/*.scss')
         .pipe(sass())
         .pipe(dest('.css'))
 }
 
 
 function watchTask() {
-    watch('*.scss', buildStyles)
+    watch(['antui/**/*.scss'], buildStyles)
 }
 
 
