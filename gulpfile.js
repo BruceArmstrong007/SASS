@@ -13,7 +13,7 @@ function buildStyles() {
 
 
 function watchTask() {
-    watch(['sass/**/*.scss', '*.html'], buildStyles)
+    watch(["antui/**/*.scss", 'sass/**/*.scss', '*.html'], buildStyles)
 }
 
 function build() {

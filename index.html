@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
-  <body>
+  <body class="dark-theme" id="theme">
     <nav class="navbar-primary text-white mb-4">
       <div class="container">
         <h2 class="site-title">AntUI</h2>
         <p>A lightweight CSS library for ant devs</p>
+        <button class="btn-outlined-purple text-purple text-hover-white font-xs" onclick="buttonEvent()">Switch Theme</button>
       </div>
     </nav>
     <div class="container">
@@ -212,4 +213,9 @@
       <hr class="mt-4 mb-4" />
     </div>
   </body>
+  <script>
+   const buttonEvent = () => {
+     document.getElementById('theme').classList.toggle('dark-theme');
+   }
+  </script>
 </html>

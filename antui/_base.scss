@@ -28,12 +28,15 @@ hr {
 img {
   max-width: 100%;
 }
+
 h1 {
   color: $primary;
 }
+
 a {
   color: $secondary;
 }
+
 button {
   color: white;
   border: 0;
@@ -58,4 +61,9 @@ button {
   padding: $base-padding;
   border-radius: $base-border-radius;
   border-width: $base-border-thickness;
+}
+
+.dark-theme {
+  color: white;
+  background-color: rgb(29, 29, 29) !important;
 }
