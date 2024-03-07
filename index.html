@@ -11,7 +11,12 @@
       <div class="container">
         <h2 class="site-title">AntUI</h2>
         <p>A lightweight CSS library for ant devs</p>
-        <button class="btn-outlined-purple text-purple text-hover-white font-xs" onclick="buttonEvent()">Switch Theme</button>
+        <button
+          class="btn-outlined-purple text-purple text-hover-white font-xs"
+          onclick="buttonEvent()"
+        >
+          Switch Theme
+        </button>
       </div>
     </nav>
     <div class="container">
@@ -91,7 +96,7 @@
       <!-- Lists -->
       <h2 class="mb-2">Lists</h2>
       <ul>
-        <li >
+        <li>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo
           totam aliquam praesentium ducimus tempore sapiente quia nulla optio?
           Lorem ipsum, dolor sit amet consectetur
@@ -103,7 +108,7 @@
       </ul>
       <hr class="mt-2 mb-2" />
       <ol>
-        <li >
+        <li>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo
           totam aliquam praesentium ducimus tempore sapiente quia nulla optio?
           Lorem ipsum, dolor sit amet consectetur
@@ -214,8 +219,15 @@
     </div>
   </body>
   <script>
-   const buttonEvent = () => {
-     document.getElementById('theme').classList.toggle('dark-theme');
-   }
+    const buttonEvent = () => {
+      const theme = document.getElementById("theme");
+      if (theme.classList.contains("dark-theme")) {
+        theme.classList.remove("dark-theme");
+        theme.classList.add("light-theme");
+      } else {
+        theme.classList.remove("light-theme");
+        theme.classList.add("dark-theme");
+      }
+    };
   </script>
 </html>

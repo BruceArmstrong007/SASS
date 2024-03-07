@@ -2,13 +2,16 @@
 @import "variables";
 @import "functions";
 
-// Base & Layout
-@import "base";
+// Layout
 @import "breakpoints";
 @import "grid";
 
 // Colors
 @import "colors";
+
+// Base
+@import "base";
+
 
 // Components
 @import "components/card";

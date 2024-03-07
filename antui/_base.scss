@@ -13,23 +13,11 @@ body {
 
 a {
   text-decoration: none;
-}
-
-hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
+  color: map-get($colors, 'blue');
 }
 
 img {
   max-width: 100%;
-}
-
-h1 {
-  color: $primary;
-}
-
-a {
-  color: $secondary;
 }
 
 button {
@@ -59,6 +47,11 @@ button {
 }
 
 .dark-theme {
-  color: white;
-  background-color: rgb(29, 29, 29) !important;
+  @extend .text-primary-light-8;
+  @extend .bg-primary-dark-8;
+}
+
+.light-theme {
+  @extend .text-primary-dark-8;
+  @extend .bg-primary-light-8;
 }

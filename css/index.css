@@ -1,54 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-/* reset styles */
-* {
-  color: inherit;
-  margin: 0;
-}
-
-body {
-  font-family: Poppins;
-}
-
-a {
-  text-decoration: none;
-}
-
-hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
-}
-
-h1 {
-  color: indigo;
-}
-
-a {
-  color: #1ac888;
-}
-
-button {
-  color: white;
-  border: 0;
-  background: indigo;
-  border-radius: 20px;
-  padding: 0.75rem;
-}
-
-.error {
-  color: #d32752;
-  border-color: #d32752;
-  border-style: solid;
-  margin: 0.75rem;
-  padding: 0.75rem;
-  border-radius: 20px;
-  border-width: 1px;
-}
-
-.dark-theme {
-  color: white;
-  background-color: rgb(29, 29, 29) !important;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -116,7 +66,11 @@ button {
   background-color: #b799cd;
 }
 
-.bg-primary-light-8 {
+ .dark-theme {
+  color: #dbcce6;
+}
+
+.bg-primary-light-8, .light-theme {
   background-color: #dbcce6;
 }
 
@@ -132,7 +86,11 @@ button {
   background-color: #1e0034;
 }
 
-.bg-primary-dark-8 {
+ .light-theme {
+  color: #0f001a;
+}
+
+.bg-primary-dark-8, .dark-theme {
   background-color: #0f001a;
 }
 
@@ -242,6 +200,39 @@ button {
 
 .text-hover-white:hover {
   color: white;
+}
+
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: #1919e6;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: indigo;
+  border-radius: 20px;
+  padding: 0.75rem;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 20px;
+  border-width: 1px;
 }
 
 .card {
